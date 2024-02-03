@@ -1,16 +1,16 @@
-import { BrowserRouter, Routes, Route, } from "react-router-dom";
-
-import Home from './components/Home'
+import { useState } from "react";
+import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from "./components/header/Header";
+import Home from "./components/home/Home";
 
 function App() {
+  const [count, setCount] = useState(0);
   return (
-    <BrowserRouter>
-    <main>
-      <Routes>
-        <Route path="/" element = {<Home/>}></Route>
-      </Routes>
-    </main>
-    </BrowserRouter>
+    <div>
+      <Header />
+      <Home />
+    </div>
   );
 }
 
