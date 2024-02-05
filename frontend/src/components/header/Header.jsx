@@ -12,7 +12,7 @@ const Header = () => {
                 <Navbar.Brand href="#home">Hospital System</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
+                    <Nav className="ms-auto">
                         <Nav.Link href="#home">My Service</Nav.Link>
                         <Nav.Link href="#home">Report</Nav.Link>
                         <Nav.Link href="#home">About</Nav.Link>
