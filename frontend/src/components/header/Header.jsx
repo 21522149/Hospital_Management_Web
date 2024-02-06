@@ -1,37 +1,71 @@
 import React from "react";
-// import "./header.css";
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-
+import "../../assets/css/main.css"
+import "../../assets/css/utilites.css"
 const Header = () => {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
-            <Container>
-                <Navbar.Brand href="#home">Hospital System</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ms-auto">
-                        <Nav.Link href="#home">My Service</Nav.Link>
-                        <Nav.Link href="#home">Report</Nav.Link>
-                        <Nav.Link href="#home">About</Nav.Link>
-                        <Nav.Link href="#home">News</Nav.Link>
-                        <NavDropdown title="More" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">
-                                Another action
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">
-                                Separated link
-                            </NavDropdown.Item>
-                        </NavDropdown>
-                    </Nav>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
+        <header class = "header">
+                <nav class = "navbar">
+                    <div class="container">
+                        <div class="navbar-content d-flex justify-content-between align-items-center">
+                            <div class = "brand-and-toggler d-flex align-items-center justify-content-between">
+                                <a href = "#" class = "navbar-brand d-flex align-items-center">
+                                    <span class="brand-shape d-inline-block text-white">M</span>
+                                    <span class="brand-text fw-7">Medimoor</span>
+                                </a>
+                                <button type = "button" class = "d-none navbar-show-btn">
+                                    <i class = "fas fa-bars"></i>
+                                </button>
+                            </div>
+
+                            <div class = "navbar-box">
+                                <button type = "button" class = "navbar-hide-btn">
+                                    <i class = "fas fa-times"></i>
+                                </button>
+
+                                <ul class = "navbar-nav d-flex align-items-center">
+                                    <li class = "nav-item">
+                                        <a href = "#" class = "nav-link text-white nav-active text-nowrap">Home</a>
+                                    </li>
+                                    <li class = "nav-item">
+                                        <a href = "#" class = "nav-link text-white text-nowrap">Find a doctor</a>
+                                    </li>
+                                    <li class = "nav-item">
+                                        <a href = "#" class = "nav-link text-white text-nowrap">Apps</a>
+                                    </li>
+                                    <li class = "nav-item">
+                                        <a href = "#" class = "nav-link text-white text-nowrap">Testimonials</a>
+                                    </li>
+                                    <li class = "nav-item">
+                                        <a href = "#" class = "nav-link text-white text-nowrap">About us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="element-one">
+                    <img src="assets/images/element-img-1.png" alt="" />
+                </div>
+
+                <div class="banner">
+                    <div class="container">
+                        <div class="banner-content">
+                            <div class="banner-left">
+                                <div class="content-wrapper">
+                                    <h1 class="banner-title">Virtual healthcare for you</h1>
+                                    <p class="text text-white">Medimoor provides progressive, and affordable healthcare, accessible on mobile and onnline for everyone</p>
+                                    <a href = "#" class="btn btn-secondary">Consult today</a>
+                                </div>
+                            </div>
+
+                            <div class = "banner-right d-flex align-items-center justify-content-end">
+                                <img src="images/banner-image.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
     )
 }
 
