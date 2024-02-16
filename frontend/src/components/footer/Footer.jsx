@@ -1,6 +1,6 @@
 import React from "react";
-import "../../assets/css/main.css"
-import "../../assets/css/utilites.css"
+import element4 from "../images/element-img-4.png"
+import element5 from "../images/element-img-5.png"
 
 const Footer = () => {
     return (
@@ -51,9 +51,11 @@ const Footer = () => {
 
                 <div class = "footer-element-1">
                     {/* <img src = "assets/images/element-img-4.png" alt = ""> */}
+                    <img src={element4} alt="element-4"/>
                 </div>
                 <div class = "footer-element-2">
                     {/* <img src = "assets/images/element-img-5.png" alt = ""> */}
+                    <img src={element5} alt="element-5"/>
                 </div>
             </footer>
     )
