@@ -2,6 +2,7 @@ import React from "react";
 import element1 from "../images/element-img-1.png"
 import bannerimages from "../images/banner-image.png"
 
+
 const Header = () => {
     return (
         <header class = "header">
@@ -25,16 +26,19 @@ const Header = () => {
 
                         <ul class = "navbar-nav d-flex align-items-center">
                             <li class = "nav-item">
-                                <a href = "Home" class = "nav-link text-white nav-active text-nowrap">Home</a>
+                                <a href = "Home" className = "nav-link text-white nav-active text-nowrap">Home</a>
                             </li>
                             <li class = "nav-item">
-                                <a href = "#" class = "nav-link text-white text-nowrap">Find a doctor</a>
+                                <a href = "../src/page/home/Login.js" class = "nav-link text-white text-nowrap">Find a doctor</a>
                             </li>
                             <li class = "nav-item">
                                 <a href = "#" class = "nav-link text-white text-nowrap">Apps</a>
                             </li>
                             <li class = "nav-item">
                                 <a href = "#" class = "nav-link text-white text-nowrap">Testimonials</a>
+                            </li>
+                            <li class = "nav-item">
+                                <a href = "#" class = "nav-link text-white text-nowrap">Login</a>
                             </li>
                             <li class = "nav-item">
                                 <a href = "#" class = "nav-link text-white text-nowrap">About us</a>
