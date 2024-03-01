@@ -31,16 +31,16 @@ const Header = () => {
                                 <a href = "Home" class = "nav-link text-white text-nowrap">Find a doctor</a>
                             </li>
                             <li class = "nav-item">
-                                <a href = "Login" class = "nav-link text-white text-nowrap">Apps</a>
+                                <a href = "Home" class = "nav-link text-white text-nowrap">Apps</a>
                             </li>
                             <li class = "nav-item">
-                                <a href = "#" class = "nav-link text-white text-nowrap">Testimonials</a>
+                                <a href = "Home" class = "nav-link text-white text-nowrap">Testimonials</a>
                             </li>
                             <li class = "nav-item">
-                                <a href = "#" class = "nav-link text-white text-nowrap">Login</a>
+                                <a href = "Login" class = "nav-link text-white text-nowrap">Login</a>
                             </li>
                             <li class = "nav-item">
-                                <a href = "#" class = "nav-link text-white text-nowrap">About us</a>
+                                <a href = "Home" class = "nav-link text-white text-nowrap">About us</a>
                             </li>
                         </ul>
                     </div>
