@@ -1,4 +1,6 @@
 import React from "react";
+import "../../assets/css/main.css";
+import "../../assets/css/utilites.css";
 import element1 from "../images/element-img-1.png"
 import bannerimages from "../images/banner-image.png"
 
@@ -31,13 +33,13 @@ const Header = () => {
                                 <a href = "Home" class = "nav-link text-white text-nowrap">Find a doctor</a>
                             </li>
                             <li class = "nav-item">
-                                <a href = "Login" class = "nav-link text-white text-nowrap">Apps</a>
+                                <a href = "#" class = "nav-link text-white text-nowrap">Apps</a>
                             </li>
                             <li class = "nav-item">
                                 <a href = "#" class = "nav-link text-white text-nowrap">Testimonials</a>
                             </li>
                             <li class = "nav-item">
-                                <a href = "#" class = "nav-link text-white text-nowrap">Login</a>
+                                <a href = "Login" class = "nav-link text-white text-nowrap">Login</a>
                             </li>
                             <li class = "nav-item">
                                 <a href = "#" class = "nav-link text-white text-nowrap">About us</a>

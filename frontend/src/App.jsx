@@ -3,8 +3,6 @@ import "./App.css";
 import Header from "./components/header/Header";
 import Home from "./page/home/Home"
 import Login from "./page/login/Login"
-import "../src/assets/css/main.css";
-import "../src/assets/css/utilites.css";
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
 
 function App() {
@@ -15,6 +13,8 @@ function App() {
         <Route path="/" element={<Header/>}></Route>
         <Route path="/Home" element={<Home/>}></Route>
         <Route path="/Login" element={<Login/>}></Route>
+        {/* <Route path="/FindDoctor" element={<FindDoctor/>}></Route>
+        <Route path="/AboutUs" element={<AboutUs/>}></Route> */}
       </Routes>
      </BrowserRouter>
   )

@@ -1,4 +1,7 @@
 import React from "react";
+import "../../assets/css/main.css";
+import "../../assets/css/utilites.css";
+
 
 import serviceicon1 from "../../components/images/service-icon-1.png"
 import serviceicon2 from "../../components/images/service-icon-2.png"
